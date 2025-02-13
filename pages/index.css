@@ -31,16 +31,15 @@
 
 .header__span-accent {
   color: #3f96f3;
-  font-family: Noto Serif;
+  font-family: Noto Serif, Times New Roman, serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
+  display: block;
 }
 
 .header__description {
   max-width: 683px;
   margin: 0 0 0 80px;
-  font-family: Noto serif;
+  font-family: Noto serif, Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -58,17 +57,12 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   margin-top: auto;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .header__paragraph {
-  margin: 0;
-  margin-left: 80px;
+  margin: 0 0 0 80px;
 }
 
 .header__paragraph:nth-of-type(3n) {
@@ -131,8 +125,7 @@
 .recipes__subtitle {
   max-width: 438px;
   margin: 0 0 80px 80px;
-
-  font-family: Noto serif;
+  font-family: Noto serif, Times New Roman, serif;
   font-size: 20px;
   line-height: 30px;
 }
