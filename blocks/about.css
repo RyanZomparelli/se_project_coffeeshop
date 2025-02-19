@@ -1,0 +1,42 @@
+.about {
+  background-color: #082850;
+  color: #fff;
+  padding: 100px 80px 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__title {
+  margin: 0;
+  max-width: 251px;
+  z-index: 1;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.about__content {
+  margin: 19px 0 173px auto;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  margin: 0;
+  font-family: Noto serif, Times New Roman, serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+}
