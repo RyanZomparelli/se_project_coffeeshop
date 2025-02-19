@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Currently, the form is not yet functional, but I plan to implement its core functionality using JavaScript. Future updates will also include enhancing the checkbox styling for a better user experience. These improvements will ensure the form is both visually appealing and fully operational.
