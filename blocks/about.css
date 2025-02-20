@@ -12,11 +12,11 @@
     transform: scale(1.1);
   }
 }
-
+/* Swap .about__content bottom marging for .about bottom padding */
 .about {
   background-color: #082850;
   color: #fff;
-  padding: 100px 80px 0;
+  padding: 100px 80px 173px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -30,18 +30,18 @@
   font-size: 44px;
   line-height: 52px;
 }
-
+/* Swap .about__content bottom marging for .about bottom padding */
 .about__content {
-  margin: 19px 0 173px auto;
+  margin: 19px 0 0 auto;
   max-width: 660px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
+/* Add quotes to fonts with multiple words */
 .about__paragraph {
   margin: 0;
-  font-family: Noto serif, Times New Roman, serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -55,14 +55,7 @@
   left: -129px;
   top: -152px;
 }
-
+/* Remove duplicate styles from modifier */
 .about__circle_animation_blurred {
-  background-color: #1878dc;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  left: -129px;
-  top: -152px;
   animation: pulsate 1.3s ease-in-out infinite;
 }

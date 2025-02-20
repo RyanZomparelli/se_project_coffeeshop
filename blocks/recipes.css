@@ -16,11 +16,11 @@
   font-size: 44px;
   line-height: 52px;
 }
-
+/* Add quotes to multi word fonts */
 .recipes__subtitle {
   max-width: 438px;
   margin: 0 0 80px 80px;
-  font-family: Noto serif, Times New Roman, serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -45,8 +45,9 @@
   width: 480px;
   border: none;
 }
-
+/* reset default margins to 0 */
 .recipes__video-caption {
+  margin: 0;
   display: flex;
   justify-content: space-between;
   font-weight: 500;

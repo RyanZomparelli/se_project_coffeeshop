@@ -1,4 +1,6 @@
+/* Add box-sizing: border-box; */
 .header {
+  box-sizing: border-box;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
@@ -8,6 +10,8 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  /* Header img overlapping/Add z-index for a more responsive design */
+  z-index: 1;
 }
 
 .header__title {
@@ -18,36 +22,36 @@
   line-height: 72px;
   letter-spacing: -0.6px;
 }
-
+/* Add quotes to fonts with mutiple words */
 .header__span-accent {
   color: #3f96f3;
-  font-family: Noto Serif, Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   display: block;
 }
-
+/* Add quotes to fonts with mutiple words */
 .header__description {
   max-width: 683px;
   margin: 0 0 0 80px;
-  font-family: Noto serif, Times New Roman, serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
-
+/* Add z-index for a more responsive design */
 .header__image {
   width: 646px;
   height: 568px;
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
-
+/* remove useless flex property */
 .header__footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-  justify-content: space-between;
   margin-top: auto;
 }
 
